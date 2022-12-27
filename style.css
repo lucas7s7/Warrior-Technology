@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    padding: 16px 30px;
+    background-color: #bdbdbd;
+}
+
+header .container{
+    display: flex; /* flexibilizam a disposição dos items */
+    align-items: center;
+    justify-content: space-between; /* distribui os items */
+}
+
+header .container img{
+    height: 150px;
+    padding: 16px 70px;
+}
+
+header .container nav li{
+    display: inline;
+    margin-left: 16px;
+}
+
+header .container nav li a{
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    color: #ffffff;
+    margin-right: 30px;
+}

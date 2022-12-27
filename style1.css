@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    padding: 16px 30px;
+    background-color: gray;
+    color: white;
+    ;
+}
+
+header nav li{
+    display: inline;
+    margin-left: 16px;
+    font-size: 24px;
+}
+
+header nav li a{
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+    header img{
+        height: 120px;
+    }
+
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
