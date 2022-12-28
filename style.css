@@ -131,8 +131,13 @@ footer{
     padding: 16px 0;
 }
 
+footer .siga h3{
+    margin-left: 30px;
+}
+
 .social-links img{
     height: 24px; /* altura */
+    margin-left: 30px;
 }
 
 .social-links li{
