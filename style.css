@@ -8,8 +8,13 @@ header{
     background-color: #bdbdbd;
 }
 
+body, input, textarea{
+    font-family: 'Roboto', sans-serif;
+}
+
 header .container,
-section .container{
+section .container,
+footer{
     display: flex; /* flexibilizam a disposição dos items */
     align-items: center;
     justify-content: space-between; /* distribui os items */
@@ -40,7 +45,8 @@ section .container h1{
     margin-top: 0;
 }
 
-section .container{
+section .container,
+footer{
     max-width: 1280px;
     width: 100%;
     padding: 30px 30px;
@@ -76,5 +82,64 @@ section .produtos h1, p{
     font-family: 'Open Sans', sans-serif;
 }
 
+section .container{
+    align-items: flex-start;
+}
 
 
+section h3{
+    margin-bottom: 16px;
+}
+
+.contact{
+    display: flex;
+    justify-content: space-between;
+}
+
+#contact .container{
+    display: block;
+}
+
+form input,
+form textarea,
+form button
+{
+    display: block;
+    width: 320px; /* largura */
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form button{
+    background-color: #031c61;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color: #3e62c6;
+}
+
+input:focus, textarea:focus{
+    outline-color: #3e62c6;
+}
+
+footer{
+    background-color: #031c61;
+    color: #ffffff;
+    padding: 16px 0;
+}
+
+.social-links img{
+    height: 24px; /* altura */
+}
+
+.social-links li{
+    display: inline;
+    margin-right: 10px;
+}
+
+.social-links li a{
+    text-decoration: none;
+}
